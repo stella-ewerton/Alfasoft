@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
 * Plugin Name: Stella Cabeçalho
 * Plugin URI: https://github.com/stella-ewerton/Alfasoft
