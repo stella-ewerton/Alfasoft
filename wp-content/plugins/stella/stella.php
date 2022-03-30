@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: stella
+* Plugin Name: Stella Cabeçalho
 * Plugin URI: https://github.com/stella-ewerton/Alfasoft
 * Description: Header
 * Version: 1.0.0
