@@ -43,16 +43,16 @@ class CaptchaSecurityImages {
 		for( $i=0; $i<($width*$height)/150; $i++ ) {
 			imageline($image, mt_rand(0,$width), mt_rand(0,$height), mt_rand(0,$width), mt_rand(0,$height), $noise_color);
 		}
-		/* create textbox and add text */
+		/* create textbox and add text 
 		$textbox = imagettfbbox($font_size, 0, './monofont.ttf', $code) or die('Error in imagettfbbox function');
 		$x = ($width - $textbox[4])/2;
 		$y = ($height - $textbox[5])/2;
 		imagettftext($image, $font_size, 0, $x, $y, $text_color, './monofont.ttf' , $code) or die('Error in imagettftext function');
-		/* output captcha image to browser */
+		/* output captcha image to browser 
 		header('Content-Type: image/jpeg');
 		imagejpeg($image);
 		imagedestroy($image);
-		$_SESSION['security_code'] = $code;
+		$_SESSION['security_code'] = $code;*/
 	}
 
 }
