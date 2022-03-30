@@ -1,5 +1,5 @@
 <?php
-
+/**
 * Plugin Name: stella
 * Plugin URI: https://github.com/stella-ewerton/Alfasoft
 * Description: Header
@@ -7,5 +7,6 @@
 * Author: Stella Ewerton
 * Author URI: https://github.com/stella-ewerton/Alfasoft
 * License: GPL2
+*/
 ?>
 
